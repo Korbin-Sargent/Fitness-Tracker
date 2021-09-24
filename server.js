@@ -1,8 +1,8 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const logger = require("morgan");
-const apiRoutes = "./routes/apiRoutes";
-const viewRoutes = "./routes/viewRoutes";
+const apiRoutes = "./routes/api";
+const viewRoutes = "./routes/view";
 
 const app = express();
 console.log("!!!! Look here !!!!!!" + app);
