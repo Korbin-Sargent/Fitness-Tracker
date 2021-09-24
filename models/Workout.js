@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
-console.log(schema);
+console.log(Schema);
 const WorkoutSchema = new Schema(
   {
     day: {

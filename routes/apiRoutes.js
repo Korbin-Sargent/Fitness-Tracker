@@ -44,3 +44,5 @@ router.get("/api/workouts/range", (req, res) => {
       res.status(400).json(err);
     });
 });
+
+module.exports = router;
