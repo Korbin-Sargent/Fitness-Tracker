@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static("public"));
-app.use(logger("dev");)
+app.use(logger("dev"));
 
 app.use(apiRoutes);
 app.use(viewRoutes);
