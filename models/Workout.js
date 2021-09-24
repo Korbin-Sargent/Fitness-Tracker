@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
+console.log(schema);
 const WorkoutSchema = new Schema(
   {
     day: {
@@ -20,7 +21,7 @@ const WorkoutSchema = new Schema(
         name: {
           type: String,
           time: true,
-          required: true;
+          required: true,
         },
         duration: {
           type: Number,
