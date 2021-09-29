@@ -42,12 +42,12 @@ const WorkoutSchema = new Schema(
         },
       },
     ],
-  },
-  {
-    toJSON: {
-      virtuals: true,
-    },
   }
+  // {
+  //   toJSON: {
+  //     virtuals: true,
+  //   },
+  // }
 );
 
 //total duration
