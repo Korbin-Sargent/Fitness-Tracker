@@ -6,7 +6,7 @@ A web application that allows users to track different types of exercise and ana
 <img width="1144" alt="Screen Shot 2021-09-28 at 11 17 59 PM" src="https://user-images.githubusercontent.com/87394831/135207717-d3e4cad7-6f70-41fb-bc43-b559505fd299.png">
 
  # Links
- [Deployed Site: ]()
+ [Deployed Site: https://quiet-depths-83393.herokuapp.com/](https://quiet-depths-83393.herokuapp.com/)
  
  [Repository: https://github.com/Korbin-Sargent/Fitness-Tracker](https://github.com/Korbin-Sargent/Fitness-Tracker)
  
