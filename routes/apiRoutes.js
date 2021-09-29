@@ -3,14 +3,6 @@ const db = require("../models");
 
 //get route for workout data
 router.get("/api/workouts", (req, res) => {
-  //   db.Workout.find({})
-  //     .then((dbWorkout) => {
-  //       console.log(dbWorkout);
-  //       res.json(dbWorkout);
-  //     })
-  //     .catch((err) => {
-  //       res.status(400).json(err);
-  //     });
   db.Workout.aggregate([
     {
       $addFields: {
@@ -37,7 +29,7 @@ router.post("/api/workouts", (req, res) => {
     });
 });
 
-//Update workout data
+//Update workout data according to id
 router.put("/api/workouts/:id", (req, res) => {
   db.Workout.findByIdAndUpdate({ _id: req.params.id }, { exercises: req.body })
     .then((dbWorkout) => {
